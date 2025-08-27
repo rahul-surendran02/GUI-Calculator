@@ -4,7 +4,7 @@ This is a GUI-based calculator application developed using Python and the Tkinte
 
 ## Features
 - User-friendly graphical interface
-- Supports the following operations:
+- **Supports the following operations**:
   - Addition
   - Subtraction
   - Multiplication
@@ -13,6 +13,6 @@ This is a GUI-based calculator application developed using Python and the Tkinte
 - Responsive design
 
 ## Installation
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/rahul-surendran02/GUI-Calculator.git
