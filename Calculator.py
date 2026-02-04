@@ -1,4 +1,4 @@
-# GUI Based Calculator App
+# GUI-Calculator App
 
 from tkinter import *
 
@@ -37,7 +37,7 @@ btn_8.grid(row=1,column=1)
 btn_9 = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="9",command=lambda: buttonClick(9))
 btn_9.grid(row=1,column=2)
 
-btn_add = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="+",command=lambda: buttonClick("+"))
+btn_add = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="/",command=lambda: buttonClick("/"))
 btn_add.grid(row=1,column=3)
 
 #Row 2- 4 5 6 -
@@ -51,7 +51,7 @@ btn_5.grid(row=2,column=1)
 btn_6 = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="6",command=lambda: buttonClick(6))
 btn_6.grid(row=2,column=2)
 
-btn_sub = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="-",command=lambda: buttonClick("-"))
+btn_sub = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="*",command=lambda: buttonClick("*"))
 btn_sub.grid(row=2,column=3) 
 
 #Row 3- 1 2 3 *
@@ -65,21 +65,21 @@ btn_2.grid(row=3,column=1)
 btn_3 = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="3",command=lambda: buttonClick(3))
 btn_3.grid(row=3,column=2)
 
-btn_mul = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="*",command=lambda: buttonClick("*"))
+btn_mul = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="-",command=lambda: buttonClick("-"))
 btn_mul.grid(row=3,column=3)
 
 #Row 4- 0 C = /
 
-btn_0 = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="0",command=lambda: buttonClick(0))
+btn_0 = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="C",command=buttonClear)
 btn_0.grid(row=4,column=0)
 
-btn_clear = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="C",command=buttonClear)
+btn_clear = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="0",command=lambda: buttonClick(0))
 btn_clear.grid(row=4,column=1)
 
 btn_equal = Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="=",command=buttonEqual)
 btn_equal.grid(row=4,column=2)
 
-btn_div= Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="/",command=lambda: buttonClick("/"))
+btn_div= Button(main,padx=16,bd=8,fg="black",font=("arial",20,"bold"),text="+",command=lambda: buttonClick("+"))
 btn_div.grid(row=4,column=3)
 
 main.mainloop()
