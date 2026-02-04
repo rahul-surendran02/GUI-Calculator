@@ -1,4 +1,4 @@
-# GUI-Based Calculator
+# GUI Calculator
 
 This is a GUI-based calculator application developed using **Python** and the **Tkinter library**. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division. It also includes functionality to clear input and display results.
 
