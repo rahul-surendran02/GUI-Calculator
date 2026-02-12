@@ -2,8 +2,6 @@
 
 This is a GUI based Calculator application developed using **Python** and the **Tkinter library**. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division. It also includes functionality to clear input and display results.
 
-This is a GUI Calculator application developed using Python and the Tkinter library. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division. It also includes functionality to clear input and display results.
-
 ## Features
 - User-friendly graphical interface
 - **Supports the following operations**:
